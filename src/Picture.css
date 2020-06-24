@@ -1,0 +1,7 @@
+.picture {
+    max-width: 80%;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
