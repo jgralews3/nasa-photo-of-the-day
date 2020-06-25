@@ -3,7 +3,6 @@ import "./App.css";
 import PhotoPage from "./PhotoPage";
 
 function App() {
-  console.log('hi');
   return (
     <div className="App">
       <PhotoPage />

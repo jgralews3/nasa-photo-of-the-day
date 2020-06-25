@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-import './PhotoPage.css';
 import axios from "axios";
 import Picture from "./Picture.js";
 import Header from "./Header.js";

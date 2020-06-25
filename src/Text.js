@@ -1,11 +1,14 @@
-import "./Text.css";
 import React from "react";
+import styled from 'styled-components';
 
+const TextP = styled.p`
+    margin-left: 10%;
+    max-width: 80%;`
 function Text(props){
     
     return (
         <div>
-            <p className="text">{props.text}</p>
+            <TextP>{props.text}</TextP>
         </div>
     )
 }
